@@ -34,7 +34,7 @@ public class VerifyLogin extends BaseClass {
 		Object[][] data = new Object[2][2];
 	
 		//correct username and password
-		data[0][0]= constants.username1;
+		data[0][0]=constants.username1;
 		data[0][1]=constants.password1;
 				
 		//incorrect username and password

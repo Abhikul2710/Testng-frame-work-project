@@ -8,6 +8,7 @@ import java.util.Properties;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -50,7 +51,7 @@ public class BaseClass {
 		
 	}
 	
-	@BeforeTest
+	@BeforeMethod
 	public void urllaunch() throws IOException {
 		
 		driver=Initializedriver();    //This driver has scope

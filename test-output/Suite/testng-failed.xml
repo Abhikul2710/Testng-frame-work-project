@@ -6,16 +6,9 @@
       <class name="TestCases.VerifyLogin">
         <methods>
           <include name="urllaunch"/>
-          <include name="credentials"/>
+          <include name="credentials" invocation-numbers="1"/>
         </methods>
       </class> <!-- TestCases.VerifyLogin -->
-      <class name="TestCases.SignupPage">
-        <methods>
-          <include name="urllaunch"/>
-          <include name="signupdetails"/>
-          <include name="urlsignup"/>
-        </methods>
-      </class> <!-- TestCases.SignupPage -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
